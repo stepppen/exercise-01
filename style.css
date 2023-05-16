@@ -1,0 +1,235 @@
+/** 
+ * A very basic CSS reset:
+ * More about CSS resets: https://meyerweb.com/eric/tools/css/reset/
+ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+/** 
+ * Card sizing and positioning.
+ * Don't mess with this!
+ */
+
+body {
+  background-image: url('WindowsBKGD.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+.card {
+  background-image: url('retroWindow.jpg');
+  background-position: center;
+  background-size: contain;
+  background-size: 115% 110%;
+  width: 300px;
+  height: 540px;
+  margin: 40px auto 0 auto;
+  color: #fff;
+  padding: 25px;
+}
+
+#hidden-1 {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  background-image: url('retroWindow.jpg');
+  background-position: center;
+  background-size: contain;
+  background-size: 115% 110%;
+  width: 400px;
+  height: 300px;
+  margin: 40px auto 0 auto;
+  color: #fff;
+  padding: 25px;
+}
+
+#hidden-2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  background-image: url('retroWindow.jpg');
+  background-position: center;
+  background-size: contain;
+  background-size: 115% 110%;
+  width: 400px;
+  height: 300px;
+  margin: 40px auto 0 auto;
+  color: #fff;
+  padding: 25px;
+}
+
+#notSure {
+  position: absolute;
+  top: 20%;
+  left: 55%;
+  background-image: url('retroWindow.jpg');
+  background-position: center;
+  background-size: contain;
+  background-size: 115% 110%;
+  width: 350px;
+  height: 250px;
+  margin: 40px auto 0 auto;
+  color: #fff;
+  padding: 25px;
+}
+
+#Sure {
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  background-image: url('retroWindow.jpg');
+  background-position: center;
+  background-size: contain;
+  background-size: 115% 110%;
+  width: 350px;
+  height: 450px;
+  margin: 40px auto 0 auto;
+  color: #fff;
+  padding: 45px 25px 25px 25px;
+}
+
+
+input {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+
+/* virus GIF's & images*/
+
+#img1 {
+  position: absolute;
+  top: 700px;
+  left: 150px;
+}
+
+#img2 {
+  position: absolute;
+  top: 330px;
+  left: 55px;
+
+}
+
+#img3 {
+  position: absolute;
+  top: 560px;
+  left: 230px;
+}
+
+#img4 {
+  z-index: 1;
+  position: absolute;
+  top: 730px;
+  left: 1232px;
+}
+
+#img5 {
+  position: absolute;
+  top: 400px;
+  left: 1400px;
+}
+
+#img6 {
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+}
+
+#img7 {
+  position: absolute;
+  top: 130px;
+  left: 930px;
+}
+
+#img8 {
+  z-index: 2;
+  position: absolute;
+  top: 150px;
+  left: 1543px;
+}
+
+#img9 {
+  z-index: 2;
+  position: absolute;
+  top: 150px;
+  left: 333px;
+}
+
+#img10 {
+  z-index: 2;
+  position: absolute;
+  top: 430px;
+  left: 500px;
+}
+
+.main-image {
+  width: 97%;
+  height: 35%;
+  margin: 25% auto 0 0;
+  display: block;
+  background-color: red;
+}
+
+.captcha-image {
+  width: 97%;
+  height: 35%;
+  margin: 15% auto 0 0;
+  display: block;
+  background-color: red;
+}
+
+
+/* text */
+
+h1 {
+  color: black;
+  font-size: x-large;
+  display: flex;
+  position: relative;
+  margin: 30px auto auto auto;
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  position: relative;
+  top: 10px;
+  color: black;
+  font-size: small;
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: 200;
+}
+
+
+/* buttons */
+
+.btn-1 {
+  position: relative;
+  margin: 30px 0px auto auto;
+  padding: 10px;
+  background: blue;
+  color: white;
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: 200;
+}
+
+.btn-2 {
+  position: relative;
+  margin: 30px 0px auto auto;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: 200;
+}
+
+.btn-1:hover,
+.btn-2:hover {
+  cursor: pointer;
+  background: black;
+}

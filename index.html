@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Card</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="/script.js"></script>
+</head>
+
+<body>
+  <div id="hacked-1" hidden="hidden">
+    <img id='img1' src="virus-1.gif" alt="virus">
+    <img id='img2' src="virus-2.gif" alt="virus">
+    <img id='img3' src="virus-3.gif" alt="virus">
+    <img id='img4' src="virus-4.gif" alt="virus">
+    <img id='img5' src="virus-5.gif" alt="virus">
+    <img id='img6' src="virus-1.gif" alt="virus">
+    <img id='img7' src="virus-2.gif" alt="virus">
+    <img id='img8' src="virus-3.gif" alt="virus">
+    <img id='img9' src="virus-4.gif" alt="virus">
+    <img id='img10' src="virus-5.gif" alt="virus">
+  </div>
+
+
+
+  <p><a href="https://giphy.com/gifs/future-careers-uniblog-12W5Sg2koWYnwA"></a></p>
+  <!-- Keep this div with the class card! -->
+  <div class="card">
+    <img class="main-image" src="Cookies_meme.png" alt="symbol" />
+    <!-- Write your markup in here! Feel free to delete the title and the text! -->
+    <h1>Accept cookies?</h1>
+    <p>This website uses cookies. We use cookies to personalise content and ads, to provide social media features and
+      to
+      analyse our traffic. </p>
+    <button class="btn-2" onclick="dontAccept()"> Don't Accept</button>
+    <button class="btn-1" onclick="Accept()"> Accept</button>
+  </div>
+
+  <div id="hidden-1" hidden="hidden">
+    <h1>Are you sure?</h1>
+    <p>If you do not accept our cookies, you will miss out on a world of personalized content, seamless navigation, and
+      tailored
+      recommendations </p>
+    <button class="btn-2" onclick="Yes()"> Yes</button>
+    <button class="btn-1" onclick="No()"> Not Sure</button>
+  </div>
+
+  <div id="hidden-2" hidden="hidden">
+    <h1>Great Choice!</h1>
+    <p> We extend our gratitude for your trust in our surveillance systems. Your personal data will now be harnessed.
+    </p>
+    <button class="btn-1" onclick="proceedToWebsite()"> Proceed to Website</button>
+  </div>
+
+  <div id="notSure" hidden="hidden">
+    <h1>Finally!</h1>
+    <p>Thank you for surrendering to our digital regime. Your compliance in accepting our cookies is duly noted and
+      appreciated. </p>
+    <button class="btn-1" onclick="proceedToWebsite()"> Accept Cookies</button>
+  </div>
+
+  <div id="Sure" hidden="hidden">
+    <h1> Confirm you are a human</h1>
+    <p>To continue, type the characters you see in the picture. </p>
+    <img class="captcha-image" src="Captcha.jpg" alt="captcha" />
+
+    <form method="GET" id="form">
+      <input type="text" name='answer' id="answer">
+      <button class="btn-1" type="submit"> Confirm </button>
+    </form>
+
+    <div id="error"></div>
+  </div>
+
+
+
+</body>
+
+</html>
