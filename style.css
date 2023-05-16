@@ -16,13 +16,13 @@
  */
 
 body {
-  background-image: url('WindowsBKGD.jpg');
+  background-image: url('Images/WindowsBKGD.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100vh;
 }
 
 .card {
-  background-image: url('retroWindow.jpg');
+  background-image: url('Images/retroWindow.jpg');
   background-position: center;
   background-size: contain;
   background-size: 115% 110%;
@@ -37,7 +37,7 @@ body {
   position: absolute;
   top: 50%;
   left: 20%;
-  background-image: url('retroWindow.jpg');
+  background-image: url('Images/retroWindow.jpg');
   background-position: center;
   background-size: contain;
   background-size: 115% 110%;
@@ -52,7 +52,7 @@ body {
   position: absolute;
   top: 40%;
   left: 50%;
-  background-image: url('retroWindow.jpg');
+  background-image: url('Images/retroWindow.jpg');
   background-position: center;
   background-size: contain;
   background-size: 115% 110%;
@@ -67,7 +67,7 @@ body {
   position: absolute;
   top: 20%;
   left: 55%;
-  background-image: url('retroWindow.jpg');
+  background-image: url('Images/retroWindow.jpg');
   background-position: center;
   background-size: contain;
   background-size: 115% 110%;
@@ -82,7 +82,7 @@ body {
   position: absolute;
   top: 25%;
   left: 45%;
-  background-image: url('retroWindow.jpg');
+  background-image: url('Images/retroWindow.jpg');
   background-position: center;
   background-size: contain;
   background-size: 115% 110%;
