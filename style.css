@@ -104,6 +104,7 @@ input {
 
 #img1 {
   z-index: 1;
+  overflow: hidden;
   position: absolute;
   top: 60%;
   left: 10%;
@@ -111,6 +112,7 @@ input {
 
 #img2 {
   z-index: 1;
+  overflow: hidden;
   position: absolute;
   top: 42%;
   left: 4%;
@@ -119,6 +121,7 @@ input {
 
 #img3 {
   z-index: 1;
+  overflow: hidden;
   position: absolute;
   top: 70%;
   left: 25%;
@@ -126,6 +129,7 @@ input {
 
 #img4 {
   z-index: 1;
+  overflow: hidden;
   position: absolute;
   top: 70%;
   left: 60%;
@@ -133,6 +137,7 @@ input {
 
 #img5 {
   z-index: 1;
+  overflow: hidden;
   position: absolute;
   top: 40%;
   left: 72%;
@@ -140,6 +145,7 @@ input {
 
 #img6 {
   z-index: 1;
+  overflow: hidden;
   position: absolute;
   top: 5%;
   left: 55%;
@@ -147,6 +153,7 @@ input {
 
 #img7 {
   z-index: 1;
+  overflow: hidden;
   position: absolute;
   top: 13%;
   left: 50%;
@@ -154,6 +161,7 @@ input {
 
 #img8 {
   z-index: 2;
+  overflow: hidden;
   position: absolute;
   top: 15%;
   left: 75%;
@@ -161,6 +169,7 @@ input {
 
 #img9 {
   z-index: 2;
+  overflow: hidden;
   position: absolute;
   top: 15%;
   left: 20%;
@@ -168,6 +177,7 @@ input {
 
 #img10 {
   z-index: 2;
+  overflow: hidden;
   position: absolute;
   top: 43%;
   left: 27%;
