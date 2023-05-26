@@ -67,12 +67,10 @@
     <p>To continue, type the characters you see in the picture. </p>
     <img class="captcha-image" src="Images/Captcha.jpg" alt="captcha" />
 
-    <form method="GET" id="form">
-      <input type="text" name='answer' id="answer">
-      <button class="btn-1" type="submit"> Confirm </button>
-    </form>
+    <input type="text" name='answer' id="answer" required>
+    <button class="btn-1" id="confirmBTN" onclick="check()"> Confirm </button>
 
-    <div id="error"></div>
+    <div id="error" hidden="hidden"> Wrong! </div>
   </div>
 
 

@@ -40,27 +40,49 @@ function proceedToWebsite() {
     }
 }
 
-const answer = document.getElementById("answer")
-const form = document.getElementById('form')
-const errorElement = document.getElementById('error')
+// Event listener on captcha form
 
-
-form.addEventListener('submit', (e) => {
-    let messages = []
-    if (answer.value === '' || answer.value == null) {
-        messages.push('Input is required')
+function check() {
+    let a = document.getElementById("answer");
+    if ((a.value == "Ekmek") || (a.value == "ekmek") || (a.value == "EKMEK")) {
+        location.reload();
+        // document.getElementById('Sure').innerHTML = 'correct';
     }
-
-    if ((answer.value == "ekmek") || (answer.value == "Ekmek") || (answer.value == "EKMEK")) {
-        messages.push('Correct')
+    else {
+        // document.getElementById('answer').innerHTML = 'wrong';
+        let window = document.getElementById('error');
+        let hidden = window.getAttribute("hidden");
+        if (hidden) {
+            window.removeAttribute("hidden");
+        }
     }
+}
 
-    if (messages.length > 0) {
-        e.preventDefault()
-        errorElement.innerText = messages.join(', ')
-    }
 
-})
+// const answer = document.getElementById("answer")
+// const form = document.getElementById('Sure')
+// const errorElement = document.getElementById('error')
+
+
+// form.addEventListener('button', (e) => {
+//     let messages = []
+//     console.log('pushed')
+//     // if (answer.value === '' || answer.value == null) {
+//     //     messages.push('Input is required')
+//     // }
+
+//     if ((answer.value != "ekmek") || (answer.value != "Ekmek") || (answer.value != "EKMEK")) {
+//         messages.push('Wrong!')
+//         console.log('wrong')
+//     }
+
+//     if (messages.length > 0) {
+//         e.preventDefault()
+//         errorElement.innerText = messages.join(', ')
+//     }
+
+
+// })
 
     // if ((a.value == "ekmek") || (a.value == "Ekmek") || (a.value == "EKMEK")) {
     //     document.getElementById('confirm').innerHTML = 'correct';

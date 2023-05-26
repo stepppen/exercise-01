@@ -249,3 +249,7 @@ p {
   cursor: pointer;
   background: black;
 }
+
+#error {
+  color: red;
+}
